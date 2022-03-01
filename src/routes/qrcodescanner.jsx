@@ -4,8 +4,8 @@ import {useSelector, useDispatch} from 'react-redux';
 import { GET_INFO, CHECK_OUT, SCAN_QR } from '../redux/ducks/actions/ActionTypes';
 import { Tooltip, AutoComplete, Input, Button } from 'antd';
 import 'antd/dist/antd.css';
-import { QrReader } from 'react-qr-reader';
-// import QrReader from 'react-qr-scanner'
+// import { QrReader } from 'react-qr-reader';
+import QrReader from 'react-qr-scanner'
 
 export default function QrCodeScanner() {
 
